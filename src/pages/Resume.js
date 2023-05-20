@@ -1,4 +1,7 @@
 import React from 'react';
+import 'simpledotcss/simple.min.css';
+import Skillset from '../components/Skillset'
+
  const Resume = () => {
   return (
     <section>
@@ -7,10 +10,7 @@ import React from 'react';
         <p>Download my resume <a href="path-to-resume" target="_blank" rel="noopener noreferrer">here</a>.</p>
         <h3>Proficiencies</h3>
         <ul>
-          <li>Proficiency 1</li>
-          <li>Proficiency 2</li>
-          <li>Proficiency 3</li>
-          <li>Proficiency 4</li>
+          <Skillset/>
         </ul>
       </div>
     </section>

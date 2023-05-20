@@ -5,7 +5,7 @@ import Navigation from './Nav';
   return (
     <header>
       <nav className="navbar navbar-expand-lg" role="navigation">
-        <a className="navbar-brand" href="#">Welcome to my </a>
+        <a className="navbar-brand" href="/">Welcome to my Portfolio</a>
         <button
           className="navbar-toggler"
           type="button"

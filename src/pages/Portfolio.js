@@ -1,6 +1,7 @@
 import React from 'react';
+import 'simpledotcss/simple.min.css';
 
- const Projects = () => {
+ const Portfolio = () => {
   return (
     <section id="projects">
       <h2>My Projects</h2>
@@ -44,4 +45,4 @@ import React from 'react';
     </section>
   );
 };
- export default Projects;
+ export default Portfolio;
