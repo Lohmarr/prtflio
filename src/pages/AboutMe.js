@@ -1,29 +1,29 @@
 import React from "react";
-import "simpledotcss/simple.min.css";
+import "../componentStyles/App.css"
 
 const AboutMe = () => {
   return (
     <section>
-      <div className="row">
-        <div className="col-md-4">
+      <div>
+        <div>
           <section id="about">
             <h2>About Me</h2>
             <img
-              className="img-fluid"
-              src="../images/me.png"
+              className="headshot"
+              src={require("../images/me.png")}
               alt="A headshot of Lohmar."
             />
             <p>
-              Hello! My name is Lohmar L'Amour. I have a certification in
+              Hello! My name is Lohmar L'Amour. I have my certification in
               Full-Stack Web Development from UNCC School of Professional
               Studies. I am proficient in a number of web development
-              technologies including HTML, CSS, Git, Bash, JavaScript/jQuery,
-              MERN Stack , database design, and API design. My previous
+              technologies including JavaScript/jQuery,
+              MERN Stack, database design, and API design, to name a few. My previous
               experience as a touring merchandising manager, IATSE stage-hand,
               and manager of a bar-hopping PedalPub has honed my ability to
               bring not only style and efficiency, but also creativity and
               problem-solving skills to any task at hand. I look forward to the
-              opportunity to apply my new skills to help bring your web
+              opportunity to apply my skill-set to help bring your software
               development projects to life!
             </p>
           </section>

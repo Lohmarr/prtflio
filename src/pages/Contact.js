@@ -1,5 +1,4 @@
 import React from 'react';
-import 'simpledotcss/simple.min.css';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 

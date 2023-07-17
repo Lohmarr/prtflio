@@ -1,5 +1,4 @@
 import React from 'react';
-import 'simpledotcss/simple.min.css';
 import Skillset from '../components/Skillset'
 
  const Resume = () => {

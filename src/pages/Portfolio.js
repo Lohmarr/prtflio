@@ -1,5 +1,4 @@
 import React from 'react';
-import 'simpledotcss/simple.min.css';
 import Project from '../components/Project';
 
 const projects = [

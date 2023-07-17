@@ -7,6 +7,7 @@ import AboutMe from "./pages/AboutMe";
 import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
 import Portfolio from "./pages/Portfolio";
+import LandingPage from "./components/LandingPage";
 
 export default function App() {
   return (
@@ -14,10 +15,11 @@ export default function App() {
       <Router>
         <Header />
         <Routes>
-          <Route exact path="/" element={<AboutMe />} />
+          <Route exact path="/" element={<LandingPage />} />
+          <Route exact path="/AboutMe" element={<AboutMe />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Resume" element={<Resume />} />
-          <Route path={`/Portfolio`} element={<Portfolio />} />
+          <Route path={`/Projects`} element={<Portfolio />} />
         </Routes>
         <Footer />
       </Router>

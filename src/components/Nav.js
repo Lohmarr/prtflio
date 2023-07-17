@@ -6,16 +6,16 @@ import { NavLink } from 'react-router-dom';
     <nav>
       <ul>
         <li className='nav-item'>
-          <NavLink activeClassName="active nav-link" to="/">About Me</NavLink>
+          <NavLink to="/AboutMe">About Me</NavLink>
         </li>
         <li className='nav-item'>
-          <NavLink activeClassName="active nav-link" to="/Portfolio">Portfolio</NavLink>
+          <NavLink to="/Projects">Projects</NavLink>
         </li>
         <li className='nav-item'>
-          <NavLink activeClassName="active nav-link" to="/Contact">Contact</NavLink>
+          <NavLink to="/Contact">Contact</NavLink>
         </li>
         <li className='nav-item'>
-          <NavLink activeClassName="active nav-link" to="/Resume">Resume</NavLink>
+          <NavLink to="/Resume">Resume</NavLink>
         </li>
       </ul>
     </nav>
