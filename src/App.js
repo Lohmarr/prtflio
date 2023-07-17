@@ -15,7 +15,7 @@ export default function App() {
       <Router>
         <Header />
         <Routes>
-          <Route exact path="/" element={<LandingPage />} />
+          <Route exact path="/20-Portfolio-Funk" element={<LandingPage />} />
           <Route exact path="/AboutMe" element={<AboutMe />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Resume" element={<Resume />} />
