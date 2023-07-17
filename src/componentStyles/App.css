@@ -12,10 +12,6 @@
   animation: float 3s infinite alternate ease-in-out;
 }
 
-.delay {
-  animation-delay: 2s;
-}
-
  @keyframes float {
   0% {
     transform: translateY(0);
@@ -53,6 +49,28 @@
   }
   100% {
     opacity: 0;
+  }
+}
+
+.bounce {
+  animation: bounce 1s ease-in-out infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(-50%);
+  }
+  25% {
+    transform: translateY(50%);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(50%);
+  }
+  100% {
+    transform: translateY(-50%);
   }
 }
 
@@ -114,9 +132,10 @@ span {
   height: auto;
 }
 
-p {
-  font-size: 20px;
+.about {
   text-shadow: 3px 3px 6px black;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
 }
 
 /* Footer */
