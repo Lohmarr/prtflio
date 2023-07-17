@@ -1,27 +1,29 @@
-import React from 'react';
-import { Formik, Form, Field, ErrorMessage } from 'formik';
-import * as Yup from 'yup';
+import React from "react";
+import { Formik, Form, Field, ErrorMessage } from "formik";
+import * as Yup from "yup";
 
- const Contact = () => {
+const Contact = () => {
   const initialValues = {
-    name: '',
-    email: '',
-    message: '',
+    name: "",
+    email: "",
+    message: "",
   };
-   const validationSchema = Yup.object({
-    name: Yup.string().required('Name is required'),
-    email: Yup.string().email('Invalid email format').required('Email is required'),
-    message: Yup.string().required('Message is required'),
+  const validationSchema = Yup.object({
+    name: Yup.string().required("Name is required"),
+    email: Yup.string()
+      .email("Invalid email format")
+      .required("Email is required"),
+    message: Yup.string().required("Message is required"),
   });
-   const handleSubmit = (values, { resetForm }) => {
-    console.log('Form data:', values);
+  const handleSubmit = (values, { resetForm }) => {
+    console.log("Form data:", values);
     resetForm();
   };
-   return (
+  return (
     <section>
       <div className="contact-content">
         <h2>Contact Me</h2>
-        <Formik
+        {/* <Formik
           initialValues={initialValues}
           validationSchema={validationSchema}
           onSubmit={handleSubmit}
@@ -43,9 +45,14 @@ import * as Yup from 'yup';
               <button type="submit">Submit</button>
             </Form>
           )}
-        </Formik>
+        </Formik> */}
+        <h4>
+          {" "}
+          Email: <a href="mailto:getlohmar@gmail.com">getlohmar@gmail.com</a>
+        </h4>
+        <h4>Or message me on LinkedIn, click the link down there &#8595; &#8595; &#8595;</h4>
       </div>
     </section>
   );
 };
- export default Contact;
+export default Contact;
