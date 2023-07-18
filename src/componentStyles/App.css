@@ -1,18 +1,18 @@
 /* Animations */
 .animate {
-    animation-duration: 1s;
-    animation-fill-mode: both;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }
 
 .animate.infinite {
-    animation-duration: infinite;
+  animation-duration: infinite;
 }
 
 .float {
   animation: float 3s infinite alternate ease-in-out;
 }
 
- @keyframes float {
+@keyframes float {
   0% {
     transform: translateY(0);
   }
@@ -76,7 +76,8 @@
 
 /* Landing Page */
 body {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/background.jpg);
   background-size: cover;
 }
 
@@ -88,6 +89,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   height: 100vh;
 }
 
@@ -95,24 +97,22 @@ body {
   color: yellow;
 }
 
-.landing-page {
+.welcome {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.landing-page h1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-size-adjust: auto;
+  text-align: center;
 }
 
 .landing-page h2 {
   text-align: center;
 }
 
-.name{
-  background: linear-gradient(to bottom right, rgb(255, 0, 179), rgb(238, 162, 228));
+.name {
+  background: linear-gradient(
+    to bottom right,
+    rgb(255, 0, 179),
+    rgb(238, 162, 228)
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -155,3 +155,11 @@ span {
   margin: 1rem 1rem 5rem;
 }
 
+/* Media Queries */
+@media (max-width: 768px) {
+  .welcome {
+    display: block;
+    text-size-adjust: auto;
+    text-align: center;
+  }
+}

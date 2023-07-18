@@ -57,7 +57,7 @@ const LandingPage = () => {
 
   return (
     <div className="landing-page">
-      <h1 className="text-center">
+      <h1 className="welcome">
         {trail.map((props, index) => (
           <animated.span key={index} style={props}>
             {letters[index]}
