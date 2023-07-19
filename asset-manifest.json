@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/20-Portfolio-Funk/static/css/main.dee2d275.css",
-    "main.js": "/20-Portfolio-Funk/static/js/main.3e630a6a.js",
+    "main.css": "/20-Portfolio-Funk/static/css/main.153f0b8f.css",
+    "main.js": "/20-Portfolio-Funk/static/js/main.5149584f.js",
     "static/media/fa-solid-900.ttf": "/20-Portfolio-Funk/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
     "static/media/fa-brands-400.ttf": "/20-Portfolio-Funk/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
     "static/media/fa-solid-900.woff2": "/20-Portfolio-Funk/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
@@ -15,11 +15,11 @@
     "index.html": "/20-Portfolio-Funk/index.html",
     "static/media/github-mark.svg": "/20-Portfolio-Funk/static/media/github-mark.6fa18895f6e6c7772cab7049f7e05f59.svg",
     "static/media/linkedin.svg": "/20-Portfolio-Funk/static/media/linkedin.27a3f479ca1bbb0ceef19e395081fb94.svg",
-    "main.dee2d275.css.map": "/20-Portfolio-Funk/static/css/main.dee2d275.css.map",
-    "main.3e630a6a.js.map": "/20-Portfolio-Funk/static/js/main.3e630a6a.js.map"
+    "main.153f0b8f.css.map": "/20-Portfolio-Funk/static/css/main.153f0b8f.css.map",
+    "main.5149584f.js.map": "/20-Portfolio-Funk/static/js/main.5149584f.js.map"
   },
   "entrypoints": [
-    "static/css/main.dee2d275.css",
-    "static/js/main.3e630a6a.js"
+    "static/css/main.153f0b8f.css",
+    "static/js/main.5149584f.js"
   ]
 }
