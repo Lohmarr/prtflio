@@ -140,6 +140,17 @@ span {
   text-align: center;
 }
 
+/* Resume */
+.credentials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.credly {
+  width: 150px;
+  height: 150px;
+}
+
 /* Footer */
 .footer-content {
   display: flex;
@@ -164,4 +175,10 @@ span {
     text-size-adjust: auto;
     text-align: center;
   }
+
+  .credly {
+    width: 150px;
+    height: 150px;
+  }
+  
 }

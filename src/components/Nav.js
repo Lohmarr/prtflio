@@ -6,6 +6,9 @@ import { NavLink } from 'react-router-dom';
     <nav>
       <ul>
         <li className='nav-item'>
+          <NavLink to="/">Home</NavLink>
+        </li>
+        <li className='nav-item'>
           <NavLink to="/AboutMe">About Me</NavLink>
         </li>
         <li className='nav-item'>
