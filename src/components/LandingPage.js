@@ -9,7 +9,7 @@ const LandingPage = () => {
     "CSS", "HTML", "JavaScript", "jQuery", "Node.js", "Express.js", 
     "React.js", "Handlebars.js", "PWAs", "MySQL", "MongoDB",
     "GraphQL", "AJAX", "RESTful API", "Git", "Authentication", 
-    "MERN Stacks", "Heroku", "Unit Testing"
+    "MERN Stack", "Heroku", "Unit Testing"
   ], []);
 
   const shuffleArray = (array) => {
