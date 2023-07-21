@@ -13,7 +13,7 @@ const AboutMe = () => {
               src={require("../images/me.png")}
               alt="A headshot of Lohmar."
             />
-            <p className="about">
+            <p className="summary">
               Hello! My name is Lohmar L'Amour. I have my certification in
               Full-Stack Web Development from UNCC School of Professional
               Studies. I am proficient in a number of web development

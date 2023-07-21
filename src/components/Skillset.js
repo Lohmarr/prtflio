@@ -27,7 +27,7 @@ const SkillList = () => {
       skills: ['RESTful API', 'Agile', 'Object-Oriented Programming (OOP)', 'Progressive Web Applications (PWAs)', 'User Authentication', 'Unit Testing', 'Full-stack development', 'MERN Stack (MongoDB, Express.js, React, Node.js)'],
     },
     {
-      category: 'Upcoming Skills From Continuation Courses at UNCC School of Professional Studies',
+      category: 'Upcoming Skills From Remaining Courses at UNCC School of Professional Studies',
       skills: ['Python', 'AWS', 'C#', 'Java'],
     },
   ];

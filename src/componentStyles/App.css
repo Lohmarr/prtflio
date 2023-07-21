@@ -132,11 +132,20 @@ span {
   height: auto;
 }
 
-.about {
+.summary {
+  padding: 1rem;
   text-shadow: 3px 3px 6px black;
   background: rgba(0, 0, 0, 0.5);
-  border-radius: 5px;
+  border-radius: 10px;
+  text-align: center;
 }
+
+/* Resume */
+
+/* .credly {
+  width: 150px;
+  height: 150px;
+} */
 
 /* Footer */
 .footer-content {
@@ -162,4 +171,10 @@ span {
     text-size-adjust: auto;
     text-align: center;
   }
+
+  .credly {
+    width: 150px;
+    height: 150px;
+  }
+  
 }

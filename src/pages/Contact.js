@@ -3,22 +3,22 @@ import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 
 const Contact = () => {
-  const initialValues = {
-    name: "",
-    email: "",
-    message: "",
-  };
-  const validationSchema = Yup.object({
-    name: Yup.string().required("Name is required"),
-    email: Yup.string()
-      .email("Invalid email format")
-      .required("Email is required"),
-    message: Yup.string().required("Message is required"),
-  });
-  const handleSubmit = (values, { resetForm }) => {
-    console.log("Form data:", values);
-    resetForm();
-  };
+  // const initialValues = {
+  //   name: "",
+  //   email: "",
+  //   message: "",
+  // };
+  // const validationSchema = Yup.object({
+  //   name: Yup.string().required("Name is required"),
+  //   email: Yup.string()
+  //     .email("Invalid email format")
+  //     .required("Email is required"),
+  //   message: Yup.string().required("Message is required"),
+  // });
+  // const handleSubmit = (values, { resetForm }) => {
+  //   console.log("Form data:", values);
+  //   resetForm();
+  // };
   return (
     <section>
       <div className="contact-content">
