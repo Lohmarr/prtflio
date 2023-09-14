@@ -140,6 +140,16 @@ span {
   text-align: center;
 }
 
+/* Projects */
+.project-links {
+  display: flex;
+  flex-direction: column;
+}
+.link {
+  text-decoration: none;
+  margin-bottom: 1rem;
+}
+
 /* Resume */
 
 /* .credly {

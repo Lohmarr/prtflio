@@ -2,7 +2,7 @@
 
 This is a portfolio website built using React. The website showcases my web development projects and provides information about my experience and skills.
 
-[Live Website](https://lohmarr.github.io/20-Portfolio-Funk/)
+[Live Website](https://lohmarr.github.io/prtflio/)
 
 ## Features
 

@@ -1,28 +1,33 @@
-import React from 'react';
-import Project from '../components/Project';
+import React from "react";
+import Project from "../components/Project";
 
 const projects = [
   {
-    title: "Project 1",
-    description: "This is the description for Project 1.",
-    image: "https://cdn.pixabay.com/photo/2019/03/21/05/27/flower-4070280_960_720.jpg",
-    link: "project-1"
+    title: "Songrex",
+    description: 
+    `Songrex is a full stack web application that allows users to view songs by genre, artist, and album, 
+      and also post new songs by embedding their own favorite songs using Spotify's embed feature. 
+      This application was built using Node.js and Express.js to create a RESTful API, 
+      Handlebars.js as the template engine, and MySQL for the database.`,
+    image:
+      require("../images/songrex.png"),
+    link: "https://songrex-f5dc5d07d801.herokuapp.com/",
+    github: "https://github.com/Lohmarr/songrex",
   },
   {
-    title: "Project 2",
-    description: "This is the description for Project 2.",
-    image: "https://cdn.pixabay.com/photo/2019/03/21/05/27/flower-4070280_960_720.jpg",
-    link: "project-2"
+    title: "Wingman",
+    description: 
+    `Wingman is a full stack web application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack.
+    It features user registration and authentication, profiles with updatable information, sorting,
+    posting, liking, and responsive web design.`,
+    image:
+      require("../images/wingman.png"),
+    link: "https://wngmn-72e58af3a89c.herokuapp.com/",
+    github: "https://github.com/Lohmarr/wngmn",
   },
-  {
-    title: "Project 3",
-    description: "This is the description for Project 3.",
-    image: "https://cdn.pixabay.com/photo/2019/03/21/05/27/flower-4070280_960_720.jpg",
-    link: "project-3"
-  }
 ];
 
- const Portfolio = () => {
+const Portfolio = () => {
   return (
     <div className="container">
       <h2>My Portfolio</h2>
@@ -34,11 +39,13 @@ const projects = [
             description={project.description}
             image={project.image}
             link={project.link}
+            github={project.github}
           />
         ))}
       </div>
+          <h4>Contact me for access to various other smaller scale projects of mine.</h4>
     </div>
   );
 };
 
- export default Portfolio;
+export default Portfolio;

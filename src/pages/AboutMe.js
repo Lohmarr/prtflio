@@ -1,5 +1,5 @@
 import React from "react";
-import "../componentStyles/App.css"
+import "../componentStyles/App.css";
 
 const AboutMe = () => {
   return (
@@ -14,17 +14,13 @@ const AboutMe = () => {
               alt="A headshot of Lohmar."
             />
             <p className="summary">
-              Hello! My name is Lohmar L'Amour. I have my certification in
-              Full-Stack Web Development from UNCC School of Professional
-              Studies. I am proficient in a number of web development
-              technologies including JavaScript/jQuery,
-              MERN Stack, database design, and API design, to name a few. My previous
-              experience as a touring merchandising manager, IATSE stage-hand,
-              and manager of a bar-hopping PedalPub has honed my ability to
-              bring not only style and efficiency, but also creativity and
-              problem-solving skills to any task at hand. I look forward to the
-              opportunity to apply my skill-set to help bring your software
-              development projects to life!
+              Certified Junior Full Stack Web Developer. Possesses a remarkable
+              ability to quickly grasp new concepts and exhibits an unwavering
+              passion for the ever-evolving tech industry. Committed to staying
+              at the forefront of competency in any respective role, and eager
+              to seek out knowledge while adapting to new challenges. A
+              collaborative nature and experience with varying professional
+              perspectives, which will be an asset to any team.
             </p>
           </section>
         </div>
