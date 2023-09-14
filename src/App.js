@@ -12,7 +12,7 @@ import LandingPage from "./components/LandingPage";
 export default function App() {
   return (
     <>
-      <Router basename="/20-Portfolio-Funk">
+      <Router basename="/prtflio">
         <Header />
         <Routes>
           <Route exact path="/" element={<LandingPage />} />
