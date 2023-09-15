@@ -9,7 +9,7 @@ const Resume = () => {
         <p>
           Download my full resume{" "}
           <a
-            href="https://drive.google.com/file/d/1ObSf_L4G4iYYzXvIgmYWM4iyqM1o0KFb/view?usp=sharing"
+            href="https://drive.google.com/file/d/1N4I42tFZo1ppWkBZn8E_YzppxLj-TTCu/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             download
