@@ -4,7 +4,7 @@ const SkillList = () => {
   const skillsets = [
     {
       category: 'Programming Languages',
-      skills: ['JavaScript', 'CSS', 'HTML5'],
+      skills: ['Java', 'TypeScript', 'JavaScript', 'CSS', 'HTML5', 'C#'],
     },
     {
       category: 'Databases',
@@ -16,7 +16,7 @@ const SkillList = () => {
     },
     {
       category: 'Frameworks and Libraries',
-      skills: ['React.js', 'Node.js', 'Express.js', 'Handlebars.js','jQuery', 'Bootstrap', 'Tailwind'],
+      skills: ['React.js', 'Angular', 'Spring Boot', 'Express.js', 'Handlebars.js','Node.js', 'jQuery', 'Bootstrap', 'Tailwind'],
     },
     {
       category: 'Version Control',
@@ -28,7 +28,7 @@ const SkillList = () => {
     },
     {
       category: 'Upcoming Skills From Remaining Courses at UNCC School of Professional Studies',
-      skills: ['Python', 'AWS', 'C#', 'Java'],
+      skills: ['Python', 'AWS'],
     },
   ];
 

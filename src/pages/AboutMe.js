@@ -17,7 +17,7 @@ const AboutMe = () => {
               Hello! My name is Lohmar L'Amour. I have my certification in
               Full Stack Web Development from UNCC School of Professional
               Studies. I am proficient in a number of web development
-              technologies including JavaScript/jQuery, MERN Stack, database
+              technologies including Java, JavaScript/jQuery, C#, MERN Stack, database
               design, and API design, to name a few. My previous experience as a
               touring merchandising manager, IATSE stage-hand, and manager of a
               bar-hopping PedalPub has honed my ability to bring not only style
